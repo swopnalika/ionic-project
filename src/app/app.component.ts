@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { Platform } from '@ionic/angular';
 import { AuthService } from './auth/auth.service';
 
 
@@ -9,10 +10,14 @@ import { AuthService } from './auth/auth.service';
   styleUrls: ['app.component.scss'],
 })
 export class AppComponent {
-  constructor(private router: Router,
+  constructor(private platform: Platform,
+    // private splashScreen: SplashScreen,
+    // private statusBar: StatusBar,
+    private router: Router,
     private authService: AuthService){
 
   }
+
   onLogout(){
    this.authService.logout();
    this.router.navigateByUrl('/auth');

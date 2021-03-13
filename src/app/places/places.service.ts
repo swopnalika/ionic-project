@@ -8,31 +8,31 @@ export class PlacesService {
   private _places: Place[] = [
     new Place(
       'p1',
-      'Taj Mahal',
-      'One of the seven great wonders of the world..',
-      'https://thumbs-prod.si-cdn.com/E0Lm_ZfhHbqapE5Amhv-aiu8XYA=/1072x720/filters:no_upscale():focal(1471x1061:1472x1062)/https://public-media.si-cdn.com/filer/b6/30/b630b48b-7344-4661-9264-186b70531bdc/istock-478831658.jpg',
+      'Mayfair-Lagoon',
+      'MAYFAIR Hotels & Resorts stand as a true paragon of world class hospitality and have some of the best luxury hotels and resorts in India.',
+      'https://www.mayfairhotels.com/mayfair-lagoon/photo-gallery/images/Aerial%20View.jpg',
       149.99
     ),
     new Place(
       'p2',
-      "hawa mahal",
-      'Pink/red sandstone - Palace of the Winds',
-      'https://www.holidify.com/images/cmsuploads/compressed/h4_20170822181427.PNG',
-      189.99
+      "Swosti Premium",
+      'largest Convention Hotel of the Eastern India.',
+      'https://1.bp.blogspot.com/-g1oNi3AZc9E/XTBwujVsCKI/AAAAAAACRC0/ndotTHDXOqURHxETgWVBsmop7uww3qcwwCLcBGAs/w1200-h630-p-k-no-nu/Swosti%2Bpremium%2Boutside%2Bview.jpg',
+      112.99
     ),
     new Place(
       'p3',
-      'Darjeeling',
-      'Queen of the hills!',
-      'https://www.thrillophilia.com/blog/wp-content/uploads/2015/05/Darjeeling.jpg',
+      'Excellency Resorts',
+      'Polished option offering modern rooms, as well as a restaurant, a hot tub & a rooftop pool.',
+      'https://imgcy.trivago.com/c_limit,d_dummy.jpeg,f_auto,h_1300,q_auto,w_2000/itemimages/22/28/2228004_v2.jpeg',
       99.99
     ),
     new Place(
       'p4',
-      'Gulmarg',
-      'a town, a hill station, a popular skiing destination!',
-      'https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0b/1a/2b/ed/gulmarg.jpg?w=1000&h=600&s=1',
-      10.00
+      'HHI',
+      'The HHI Bhubaneswar, the best luxury boutique hotel of Bhubaneswar, Odisha situated near to both airport and railway station. Visit us and enjoy your stay.',
+      'https://cf.bstatic.com/images/hotel/max1024x768/153/153678161.jpg',
+      150.00
     ),
 
   ];
